@@ -1,11 +1,11 @@
-import dev.fritz2.components.PushButtonComponent
-import dev.fritz2.components.checkbox
-import dev.fritz2.components.box
-import dev.fritz2.components.icon
+//import dev.fritz2.components.PushButtonComponent
+//import dev.fritz2.components.checkbox
+//import dev.fritz2.components.box
+//import dev.fritz2.components.icon
 import dev.fritz2.dom.html.*
-import dev.fritz2.styling.params.styled
+//import dev.fritz2.styling.params.styled
 
-fun RenderContext.funkyText(init: Div.() -> Unit): Div {
+/*fun RenderContext.funkyText(init: Div.() -> Unit): Div {
     return (::div.styled {
         margins {
             top { "3rem" }
@@ -22,4 +22,4 @@ fun RenderContext.funkyText(init: Div.() -> Unit): Div {
     }) {
         init()
     }
-}
+}*/

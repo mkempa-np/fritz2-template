@@ -1,17 +1,17 @@
 import dev.fritz2.binding.storeOf
-import dev.fritz2.components.checkbox
-import dev.fritz2.components.clickButton
-import dev.fritz2.components.pushButton
+//mport dev.fritz2.components.checkbox
+//import dev.fritz2.components.clickButton
+//import dev.fritz2.components.pushButton
 import dev.fritz2.dom.html.render
 import dev.fritz2.dom.mount
 import dev.fritz2.dom.states
-import dev.fritz2.styling.params.BackgroundBlendModes.color
-import dev.fritz2.styling.params.styled
-import dev.fritz2.styling.style
+//import dev.fritz2.styling.params.BackgroundBlendModes.color
+//import dev.fritz2.styling.params.styled
+//import dev.fritz2.styling.style
 
 fun main() {
     render{
-        (::div.styled{
+        /*(::div.styled{
             margin { "2rem" }
             color { "#eeeeee" }
         }) {
@@ -55,6 +55,10 @@ fun main() {
                     changes.states() handledBy store.update
                 }
             }
+        }*/
+        h1 {
+            +"Test Header"
         }
+        p { +"Some boring paragraph." }
     }.mount("target")
 }
